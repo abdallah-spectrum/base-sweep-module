@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_base_sweep_module_form" model="ir.ui.view">
+        <field name="name">base.sweep.module.form</field>
+        <field name="model">base.sweep.module</field>
+        <field name="arch" type="xml">
+            <form string="Base Sweep Module">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
+
